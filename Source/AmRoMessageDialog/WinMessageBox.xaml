@@ -28,12 +28,12 @@
     </Window.Resources>
 
     <!--Main Grid-->
-    <Grid Name="GridMain">
+    <Grid>
         
         <!--Window Effect-->
         <!--===================================-->
-        <Rectangle Name="RectWindowEffect" 
-                   Fill="{DynamicResource BaseEffectColor}" 
+        <DockPanel Name="DpWindowEffect" 
+                   Background="{DynamicResource BaseEffectColor}" 
                    Opacity="{DynamicResource BaseEffectOpacity}" 
                    MinHeight="120"
                    MinWidth="350"

@@ -150,7 +150,7 @@ namespace AmRoMessageDialog
             if (effectArea == null) return;
 
             WindowStartupLocation = WindowStartupLocation.Manual;
-            RectWindowEffect.Visibility = Visibility.Visible;
+            DpWindowEffect.Visibility = Visibility.Visible;
 
             if (ParentWindow.WindowState == WindowState.Maximized)
             {
@@ -169,14 +169,14 @@ namespace AmRoMessageDialog
 
             if (effectArea is Window && ParentWindow.WindowState != WindowState.Maximized)
             {
-                RectWindowEffect.Width = ParentWindow.ActualWidth;
-                RectWindowEffect.Height = ParentWindow.ActualHeight;
-                RectWindowEffect.Margin = new Thickness(7, 0, 7, 7);
+                DpWindowEffect.Width = ParentWindow.ActualWidth;
+                DpWindowEffect.Height = ParentWindow.ActualHeight;
+                DpWindowEffect.Margin = new Thickness(0, 0, 0, 0);
             }
             else
             {
-                RectWindowEffect.Width = effectArea.ActualWidth;
-                RectWindowEffect.Height = effectArea.ActualHeight;
+                DpWindowEffect.Width = effectArea.ActualWidth;
+                DpWindowEffect.Height = effectArea.ActualHeight;
             }
         }
 
@@ -187,12 +187,12 @@ namespace AmRoMessageDialog
                 RowCaption.Height = new GridLength(0);
                 RowMessage.Height = new GridLength(3, GridUnitType.Star);
                 TxtMessage.FontSize = LblCaption.FontSize;
-                RectWindowEffect.MinHeight = 120;
+                DpWindowEffect.MinHeight = 120;
                 CardMain.MinHeight = 120;
             }
             else
             {
-                RectWindowEffect.MinHeight = 140;
+                DpWindowEffect.MinHeight = 140;
                 CardMain.MinHeight = 140;
             }
             LblCaption.Content = Caption;
