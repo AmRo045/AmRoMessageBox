@@ -5,6 +5,8 @@
 
 # NuGet files
 *.nuspec
+*.nupkg
+nuget.exe
 
 # User-specific files
 *.rsuser
