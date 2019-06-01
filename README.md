@@ -9,7 +9,6 @@
     <li><a href="#parameters">Parameters</a>
     <li><a href="#properties">Properties</a>
     <li><a href="#screenshots">Screenshots</a>
-    <li><a href="#demo">Demo</a>
     <li><a href="#persian-references">Useful References</a>
 </ul>
 
