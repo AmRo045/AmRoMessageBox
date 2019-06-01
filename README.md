@@ -108,14 +108,10 @@ In the following table, you can see the AmRoMessageBox class properties:
 | ShowMessageWithEffect | bool | Specifies whether MessageBox has an window effect when displaying or not |
 
 ## Screenshots
-![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot1.png)
-![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot2.png)
-![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot3.png)
-![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot4.png)
-
-## Demo
-[Download AmRoMessageBox English Demo](https://raw.githubusercontent.com/AmRo045/AmRoMessageBox/master/Demo/AmRoMessageBoxDemo_EN.rar) |
-[Download AmRoMessageBox Persian Demo](https://raw.githubusercontent.com/AmRo045/AmRoMessageBox/master/Demo/AmRoMessageBoxDemo_FA.rar)
+![AmRoMessageBox Screenshot - Not Found](Docs/Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot1.png)
+![AmRoMessageBox Screenshot - Not Found](Docs/Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot2.png)
+![AmRoMessageBox Screenshot - Not Found](Docs/Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot3.png)
+![AmRoMessageBox Screenshot - Not Found](Docs/Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot4.png)
 
 ## Persian References
 <div>
