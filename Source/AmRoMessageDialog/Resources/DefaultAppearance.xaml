@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+    <Color x:Key="BaseForeground">#000000</Color>
+
+    <SolidColorBrush x:Key="BaseBackground" Color="#eeeeee"/>
+    <SolidColorBrush x:Key="BaseForegroundColor" Color="{DynamicResource BaseForeground}"/>
+    <SolidColorBrush x:Key="BaseIconColor" Color="{DynamicResource BaseForeground}"/>
+    <SolidColorBrush x:Key="BaseEffectColor" Color="#000000"/>
+    <SolidColorBrush x:Key="PrimaryRed" Color="#F93D49"/>
+    <SolidColorBrush x:Key="MaterialDesignFlatButtonRipple">#787878</SolidColorBrush>
+    <SolidColorBrush x:Key="MaterialDesignFlatButtonClick">#CBCACA</SolidColorBrush>
+
+    <FontFamily x:Key="BaseFontFamily">Segoe UI</FontFamily>
+    <sys:Double x:Key="BaseMessageFontSize">12</sys:Double>
+    <sys:Double x:Key="BaseCaptionFontSize">15</sys:Double>
+    <sys:Double x:Key="BaseEffectOpacity">0.6</sys:Double>
+
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="FontFamily" Value="{DynamicResource BaseFontFamily}"/>
+        <Setter Property="FontSize" Value="{DynamicResource BaseCaptionFontSize}"/>
+        <Setter Property="Padding" Value="20 5"/>
+        <Setter Property="Margin" Value="5 0"/>
+    </Style>
+    
+    <Style TargetType="{x:Type Grid}">
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="Loaded">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetProperty="Opacity" 
+                                         From="0" To="1" Duration="0:0:0:0.15" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    
+</ResourceDictionary>
