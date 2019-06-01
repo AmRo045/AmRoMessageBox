@@ -6,6 +6,7 @@ using MaterialDesignThemes.Wpf;
 
 namespace AmRoMessageDialog
 {
+    /// <inheritdoc cref="WinMessageBox" />
     /// <summary>
     /// Interaction logic for WinMessageBox.xaml
     /// </summary>
