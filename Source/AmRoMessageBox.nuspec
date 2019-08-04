@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AmRoMessageDialog</id>
+        <version>1.1.8</version>
+        <title>AmRoMessageDialog</title>
+        <authors>AmRo</authors>
+        <owners>AmRo</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <licenseUrl>https://github.com/AmRo045/AmRoMessageBox/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://sourcesara.com/</projectUrl>
+		<repository type="git" url="https://github.com/AmRo045/AmRoMessageBox"/>
+        <iconUrl>https://raw.githubusercontent.com/AmRo045/AmRoMessageBox/master/Docs/Logo.png</iconUrl>
+        <description>An simple and beautiful message box for WPF applications.</description>
+        <releaseNotes>Update MaterialDesign dependencies</releaseNotes>
+        <tags>MessageBox CustomMessageBox AmRo AmRoMessageDialog Dialog Message</tags>
+        
+        <dependencies>
+            <dependency id="MaterialDesignThemes" version="2.6.0" />
+        </dependencies>
+    </metadata>
+  
+    <files>
+        <file src="AmRoMessageDialog\bin\Release\AmRoMessageDialog.dll" target="lib\net45"></file>
+        <file src="AmRoMessageDialog\bin\Release\AmRoMessageDialog.XML" target="lib\net45"></file>
+    </files>
+</package>
