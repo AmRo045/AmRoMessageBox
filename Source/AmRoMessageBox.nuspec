@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>AmRoMessageDialog</id>
-        <version>1.1.8</version>
-        <title>AmRoMessageDialog</title>
+        <id>AmRoMessageBox</id>
+        <version>1.1.9</version>
+        <title>AmRoMessageBox</title>
         <authors>AmRo</authors>
         <owners>AmRo</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>

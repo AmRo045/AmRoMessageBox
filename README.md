@@ -1,5 +1,7 @@
 # AmRoMessageBox Component For WPF
 
+[![NuGet Status](https://img.shields.io/nuget/v/AmRoMessageBox.svg?style=flat&label=AmRoMessageBox)](https://www.nuget.org/packages/AmRoMessageBox/)
+
 <ul>
     <li><a href="#introduction">Introduction</a>
     <li><a href="#amromessagebox-features">Features</a>
