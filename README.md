@@ -1,8 +1,7 @@
-# AmRoMessageBox
+# AmRoMessageBox 
+Simple message box control for WPF.
 
 [![NuGet Status](https://img.shields.io/nuget/v/AmRoMessageBox.svg?style=flat&label=AmRoMessageBox)](https://www.nuget.org/packages/AmRoMessageBox/)
-
-Simple message box control for WPF.
 
 
 ## Installation Guide
